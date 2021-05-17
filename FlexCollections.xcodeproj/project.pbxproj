@@ -3,13 +3,93 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02AC20D709FA30297BC8316D /* Pods_FlexCollections_FlexCollectionsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89B23C6F28D79551F8B499D2 /* Pods_FlexCollections_FlexCollectionsTests.framework */; };
 		698B0303264BEA6500FEDB3B /* FlexCollections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 698B02F9264BEA6500FEDB3B /* FlexCollections.framework */; };
 		698B0308264BEA6500FEDB3B /* FlexCollectionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B0307264BEA6500FEDB3B /* FlexCollectionsTests.swift */; };
 		698B030A264BEA6500FEDB3B /* FlexCollections.h in Headers */ = {isa = PBXBuildFile; fileRef = 698B02FC264BEA6500FEDB3B /* FlexCollections.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		698B0314264F010300FEDB3B /* FlexCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B0313264F010200FEDB3B /* FlexCollectionView.swift */; };
+		698B0315264F010300FEDB3B /* FlexCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B0313264F010200FEDB3B /* FlexCollectionView.swift */; };
+		698B0326264F016300FEDB3B /* FlexCardViewCollectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B0317264F016300FEDB3B /* FlexCardViewCollectionItem.swift */; };
+		698B0327264F016300FEDB3B /* FlexCardViewCollectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B0317264F016300FEDB3B /* FlexCardViewCollectionItem.swift */; };
+		698B0328264F016300FEDB3B /* FlexButtonCollectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B0318264F016300FEDB3B /* FlexButtonCollectionItem.swift */; };
+		698B0329264F016300FEDB3B /* FlexButtonCollectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B0318264F016300FEDB3B /* FlexButtonCollectionItem.swift */; };
+		698B032A264F016300FEDB3B /* FlexFlickButtonCollectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B0319264F016300FEDB3B /* FlexFlickButtonCollectionItem.swift */; };
+		698B032B264F016300FEDB3B /* FlexFlickButtonCollectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B0319264F016300FEDB3B /* FlexFlickButtonCollectionItem.swift */; };
+		698B032C264F016300FEDB3B /* FlexSwitchCollectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B031A264F016300FEDB3B /* FlexSwitchCollectionItem.swift */; };
+		698B032D264F016300FEDB3B /* FlexSwitchCollectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B031A264F016300FEDB3B /* FlexSwitchCollectionItem.swift */; };
+		698B032E264F016300FEDB3B /* FlexMenuCollectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B031B264F016300FEDB3B /* FlexMenuCollectionItem.swift */; };
+		698B032F264F016300FEDB3B /* FlexMenuCollectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B031B264F016300FEDB3B /* FlexMenuCollectionItem.swift */; };
+		698B0330264F016300FEDB3B /* FlexCollectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B031C264F016300FEDB3B /* FlexCollectionItem.swift */; };
+		698B0331264F016300FEDB3B /* FlexCollectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B031C264F016300FEDB3B /* FlexCollectionItem.swift */; };
+		698B0332264F016300FEDB3B /* FlexColorCollectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B031D264F016300FEDB3B /* FlexColorCollectionItem.swift */; };
+		698B0333264F016300FEDB3B /* FlexColorCollectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B031D264F016300FEDB3B /* FlexColorCollectionItem.swift */; };
+		698B0334264F016300FEDB3B /* FlexTextFieldCollectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B031E264F016300FEDB3B /* FlexTextFieldCollectionItem.swift */; };
+		698B0335264F016300FEDB3B /* FlexTextFieldCollectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B031E264F016300FEDB3B /* FlexTextFieldCollectionItem.swift */; };
+		698B0336264F016300FEDB3B /* FlexSliderCollectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B031F264F016300FEDB3B /* FlexSliderCollectionItem.swift */; };
+		698B0337264F016300FEDB3B /* FlexSliderCollectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B031F264F016300FEDB3B /* FlexSliderCollectionItem.swift */; };
+		698B0338264F016300FEDB3B /* FlexCollectionSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B0320264F016300FEDB3B /* FlexCollectionSection.swift */; };
+		698B0339264F016300FEDB3B /* FlexCollectionSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B0320264F016300FEDB3B /* FlexCollectionSection.swift */; };
+		698B033A264F016300FEDB3B /* FlexSnapStepperCollectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B0321264F016300FEDB3B /* FlexSnapStepperCollectionItem.swift */; };
+		698B033B264F016300FEDB3B /* FlexSnapStepperCollectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B0321264F016300FEDB3B /* FlexSnapStepperCollectionItem.swift */; };
+		698B033C264F016300FEDB3B /* FlexImageCollectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B0322264F016300FEDB3B /* FlexImageCollectionItem.swift */; };
+		698B033D264F016300FEDB3B /* FlexImageCollectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B0322264F016300FEDB3B /* FlexImageCollectionItem.swift */; };
+		698B033E264F016300FEDB3B /* FlexBaseCollectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B0323264F016300FEDB3B /* FlexBaseCollectionItem.swift */; };
+		698B033F264F016300FEDB3B /* FlexBaseCollectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B0323264F016300FEDB3B /* FlexBaseCollectionItem.swift */; };
+		698B0340264F016300FEDB3B /* FlexTextViewCollectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B0324264F016300FEDB3B /* FlexTextViewCollectionItem.swift */; };
+		698B0341264F016300FEDB3B /* FlexTextViewCollectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B0324264F016300FEDB3B /* FlexTextViewCollectionItem.swift */; };
+		698B0342264F016300FEDB3B /* FlexCardTextViewCollectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B0325264F016300FEDB3B /* FlexCardTextViewCollectionItem.swift */; };
+		698B0343264F016300FEDB3B /* FlexCardTextViewCollectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B0325264F016300FEDB3B /* FlexCardTextViewCollectionItem.swift */; };
+		698B0353264F01BF00FEDB3B /* FlexFlickButtonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B0345264F01BF00FEDB3B /* FlexFlickButtonCollectionViewCell.swift */; };
+		698B0354264F01BF00FEDB3B /* FlexFlickButtonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B0345264F01BF00FEDB3B /* FlexFlickButtonCollectionViewCell.swift */; };
+		698B0355264F01BF00FEDB3B /* FlexSliderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B0346264F01BF00FEDB3B /* FlexSliderCollectionViewCell.swift */; };
+		698B0356264F01BF00FEDB3B /* FlexSliderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B0346264F01BF00FEDB3B /* FlexSliderCollectionViewCell.swift */; };
+		698B0357264F01BF00FEDB3B /* FlexSnapStepperCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B0347264F01BF00FEDB3B /* FlexSnapStepperCollectionViewCell.swift */; };
+		698B0358264F01BF00FEDB3B /* FlexSnapStepperCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B0347264F01BF00FEDB3B /* FlexSnapStepperCollectionViewCell.swift */; };
+		698B0359264F01BF00FEDB3B /* FlexTextViewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B0348264F01BF00FEDB3B /* FlexTextViewCollectionViewCell.swift */; };
+		698B035A264F01BF00FEDB3B /* FlexTextViewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B0348264F01BF00FEDB3B /* FlexTextViewCollectionViewCell.swift */; };
+		698B035B264F01BF00FEDB3B /* FlexCardViewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B0349264F01BF00FEDB3B /* FlexCardViewCollectionViewCell.swift */; };
+		698B035C264F01BF00FEDB3B /* FlexCardViewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B0349264F01BF00FEDB3B /* FlexCardViewCollectionViewCell.swift */; };
+		698B035D264F01BF00FEDB3B /* FlexBaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B034A264F01BF00FEDB3B /* FlexBaseCollectionViewCell.swift */; };
+		698B035E264F01BF00FEDB3B /* FlexBaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B034A264F01BF00FEDB3B /* FlexBaseCollectionViewCell.swift */; };
+		698B035F264F01BF00FEDB3B /* FlexSwitchCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B034B264F01BF00FEDB3B /* FlexSwitchCollectionViewCell.swift */; };
+		698B0360264F01BF00FEDB3B /* FlexSwitchCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B034B264F01BF00FEDB3B /* FlexSwitchCollectionViewCell.swift */; };
+		698B0361264F01BF00FEDB3B /* FlexCardTextViewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B034C264F01BF00FEDB3B /* FlexCardTextViewCollectionViewCell.swift */; };
+		698B0362264F01BF00FEDB3B /* FlexCardTextViewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B034C264F01BF00FEDB3B /* FlexCardTextViewCollectionViewCell.swift */; };
+		698B0363264F01BF00FEDB3B /* FlexButtonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B034D264F01BF00FEDB3B /* FlexButtonCollectionViewCell.swift */; };
+		698B0364264F01BF00FEDB3B /* FlexButtonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B034D264F01BF00FEDB3B /* FlexButtonCollectionViewCell.swift */; };
+		698B0365264F01BF00FEDB3B /* FlexTextFieldCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B034E264F01BF00FEDB3B /* FlexTextFieldCollectionViewCell.swift */; };
+		698B0366264F01BF00FEDB3B /* FlexTextFieldCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B034E264F01BF00FEDB3B /* FlexTextFieldCollectionViewCell.swift */; };
+		698B0367264F01BF00FEDB3B /* FlexImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B034F264F01BF00FEDB3B /* FlexImageCollectionViewCell.swift */; };
+		698B0368264F01BF00FEDB3B /* FlexImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B034F264F01BF00FEDB3B /* FlexImageCollectionViewCell.swift */; };
+		698B0369264F01BF00FEDB3B /* FlexMenuCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B0350264F01BF00FEDB3B /* FlexMenuCollectionViewCell.swift */; };
+		698B036A264F01BF00FEDB3B /* FlexMenuCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B0350264F01BF00FEDB3B /* FlexMenuCollectionViewCell.swift */; };
+		698B036B264F01BF00FEDB3B /* FlexColorCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B0351264F01BF00FEDB3B /* FlexColorCollectionViewCell.swift */; };
+		698B036C264F01BF00FEDB3B /* FlexColorCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B0351264F01BF00FEDB3B /* FlexColorCollectionViewCell.swift */; };
+		698B036D264F01BF00FEDB3B /* FlexCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B0352264F01BF00FEDB3B /* FlexCollectionViewCell.swift */; };
+		698B036E264F01BF00FEDB3B /* FlexCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B0352264F01BF00FEDB3B /* FlexCollectionViewCell.swift */; };
+		698B0372264F020900FEDB3B /* EmptyHeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B0370264F020900FEDB3B /* EmptyHeaderCollectionReusableView.swift */; };
+		698B0373264F020900FEDB3B /* EmptyHeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B0370264F020900FEDB3B /* EmptyHeaderCollectionReusableView.swift */; };
+		698B0374264F020900FEDB3B /* SimpleHeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B0371264F020900FEDB3B /* SimpleHeaderCollectionReusableView.swift */; };
+		698B0375264F020900FEDB3B /* SimpleHeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B0371264F020900FEDB3B /* SimpleHeaderCollectionReusableView.swift */; };
+		698B037C264F02C200FEDB3B /* FlexBaseCollectionViewCellAuxTextLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B0377264F02C100FEDB3B /* FlexBaseCollectionViewCellAuxTextLabel.swift */; };
+		698B037D264F02C200FEDB3B /* FlexBaseCollectionViewCellAuxTextLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B0377264F02C100FEDB3B /* FlexBaseCollectionViewCellAuxTextLabel.swift */; };
+		698B037E264F02C200FEDB3B /* FlexBaseCollectionViewCellInfoTextLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B0378264F02C200FEDB3B /* FlexBaseCollectionViewCellInfoTextLabel.swift */; };
+		698B037F264F02C200FEDB3B /* FlexBaseCollectionViewCellInfoTextLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B0378264F02C200FEDB3B /* FlexBaseCollectionViewCellInfoTextLabel.swift */; };
+		698B0380264F02C200FEDB3B /* FlexBaseCollectionViewCellDetailTextLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B0379264F02C200FEDB3B /* FlexBaseCollectionViewCellDetailTextLabel.swift */; };
+		698B0381264F02C200FEDB3B /* FlexBaseCollectionViewCellDetailTextLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B0379264F02C200FEDB3B /* FlexBaseCollectionViewCellDetailTextLabel.swift */; };
+		698B0382264F02C200FEDB3B /* FlexCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B037A264F02C200FEDB3B /* FlexCellView.swift */; };
+		698B0383264F02C200FEDB3B /* FlexCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B037A264F02C200FEDB3B /* FlexCellView.swift */; };
+		698B0384264F02C200FEDB3B /* FlexBaseCollectionViewCellTextLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B037B264F02C200FEDB3B /* FlexBaseCollectionViewCellTextLabel.swift */; };
+		698B0385264F02C200FEDB3B /* FlexBaseCollectionViewCellTextLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B037B264F02C200FEDB3B /* FlexBaseCollectionViewCellTextLabel.swift */; };
+		698B039326501A3100FEDB3B /* FlexCellStyler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B039226501A3100FEDB3B /* FlexCellStyler.swift */; };
+		698B039426501A3100FEDB3B /* FlexCellStyler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B039226501A3100FEDB3B /* FlexCellStyler.swift */; };
+		698B03A126512E5100FEDB3B /* FlexControlLayoutHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B03A026512E5100FEDB3B /* FlexControlLayoutHelper.swift */; };
+		698B03A226512E5100FEDB3B /* FlexControlLayoutHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698B03A026512E5100FEDB3B /* FlexControlLayoutHelper.swift */; };
+		B83CF4FEB979856DC75ECABD /* Pods_FlexCollections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0996A1D7F8999ADAC509F052 /* Pods_FlexCollections.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +103,57 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0996A1D7F8999ADAC509F052 /* Pods_FlexCollections.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlexCollections.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21381B11654D477F7B170834 /* Pods-FlexCollections.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexCollections.debug.xcconfig"; path = "Target Support Files/Pods-FlexCollections/Pods-FlexCollections.debug.xcconfig"; sourceTree = "<group>"; };
 		698B02F9264BEA6500FEDB3B /* FlexCollections.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FlexCollections.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		698B02FC264BEA6500FEDB3B /* FlexCollections.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlexCollections.h; sourceTree = "<group>"; };
 		698B02FD264BEA6500FEDB3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		698B0302264BEA6500FEDB3B /* FlexCollectionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlexCollectionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		698B0307264BEA6500FEDB3B /* FlexCollectionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexCollectionsTests.swift; sourceTree = "<group>"; };
 		698B0309264BEA6500FEDB3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		698B0313264F010200FEDB3B /* FlexCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexCollectionView.swift; sourceTree = "<group>"; };
+		698B0317264F016300FEDB3B /* FlexCardViewCollectionItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexCardViewCollectionItem.swift; sourceTree = "<group>"; };
+		698B0318264F016300FEDB3B /* FlexButtonCollectionItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexButtonCollectionItem.swift; sourceTree = "<group>"; };
+		698B0319264F016300FEDB3B /* FlexFlickButtonCollectionItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexFlickButtonCollectionItem.swift; sourceTree = "<group>"; };
+		698B031A264F016300FEDB3B /* FlexSwitchCollectionItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexSwitchCollectionItem.swift; sourceTree = "<group>"; };
+		698B031B264F016300FEDB3B /* FlexMenuCollectionItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexMenuCollectionItem.swift; sourceTree = "<group>"; };
+		698B031C264F016300FEDB3B /* FlexCollectionItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexCollectionItem.swift; sourceTree = "<group>"; };
+		698B031D264F016300FEDB3B /* FlexColorCollectionItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexColorCollectionItem.swift; sourceTree = "<group>"; };
+		698B031E264F016300FEDB3B /* FlexTextFieldCollectionItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexTextFieldCollectionItem.swift; sourceTree = "<group>"; };
+		698B031F264F016300FEDB3B /* FlexSliderCollectionItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexSliderCollectionItem.swift; sourceTree = "<group>"; };
+		698B0320264F016300FEDB3B /* FlexCollectionSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexCollectionSection.swift; sourceTree = "<group>"; };
+		698B0321264F016300FEDB3B /* FlexSnapStepperCollectionItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexSnapStepperCollectionItem.swift; sourceTree = "<group>"; };
+		698B0322264F016300FEDB3B /* FlexImageCollectionItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexImageCollectionItem.swift; sourceTree = "<group>"; };
+		698B0323264F016300FEDB3B /* FlexBaseCollectionItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexBaseCollectionItem.swift; sourceTree = "<group>"; };
+		698B0324264F016300FEDB3B /* FlexTextViewCollectionItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexTextViewCollectionItem.swift; sourceTree = "<group>"; };
+		698B0325264F016300FEDB3B /* FlexCardTextViewCollectionItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexCardTextViewCollectionItem.swift; sourceTree = "<group>"; };
+		698B0345264F01BF00FEDB3B /* FlexFlickButtonCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexFlickButtonCollectionViewCell.swift; sourceTree = "<group>"; };
+		698B0346264F01BF00FEDB3B /* FlexSliderCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexSliderCollectionViewCell.swift; sourceTree = "<group>"; };
+		698B0347264F01BF00FEDB3B /* FlexSnapStepperCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexSnapStepperCollectionViewCell.swift; sourceTree = "<group>"; };
+		698B0348264F01BF00FEDB3B /* FlexTextViewCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexTextViewCollectionViewCell.swift; sourceTree = "<group>"; };
+		698B0349264F01BF00FEDB3B /* FlexCardViewCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexCardViewCollectionViewCell.swift; sourceTree = "<group>"; };
+		698B034A264F01BF00FEDB3B /* FlexBaseCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexBaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		698B034B264F01BF00FEDB3B /* FlexSwitchCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexSwitchCollectionViewCell.swift; sourceTree = "<group>"; };
+		698B034C264F01BF00FEDB3B /* FlexCardTextViewCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexCardTextViewCollectionViewCell.swift; sourceTree = "<group>"; };
+		698B034D264F01BF00FEDB3B /* FlexButtonCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexButtonCollectionViewCell.swift; sourceTree = "<group>"; };
+		698B034E264F01BF00FEDB3B /* FlexTextFieldCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexTextFieldCollectionViewCell.swift; sourceTree = "<group>"; };
+		698B034F264F01BF00FEDB3B /* FlexImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		698B0350264F01BF00FEDB3B /* FlexMenuCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexMenuCollectionViewCell.swift; sourceTree = "<group>"; };
+		698B0351264F01BF00FEDB3B /* FlexColorCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexColorCollectionViewCell.swift; sourceTree = "<group>"; };
+		698B0352264F01BF00FEDB3B /* FlexCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexCollectionViewCell.swift; sourceTree = "<group>"; };
+		698B0370264F020900FEDB3B /* EmptyHeaderCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyHeaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		698B0371264F020900FEDB3B /* SimpleHeaderCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleHeaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		698B0377264F02C100FEDB3B /* FlexBaseCollectionViewCellAuxTextLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexBaseCollectionViewCellAuxTextLabel.swift; sourceTree = "<group>"; };
+		698B0378264F02C200FEDB3B /* FlexBaseCollectionViewCellInfoTextLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexBaseCollectionViewCellInfoTextLabel.swift; sourceTree = "<group>"; };
+		698B0379264F02C200FEDB3B /* FlexBaseCollectionViewCellDetailTextLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexBaseCollectionViewCellDetailTextLabel.swift; sourceTree = "<group>"; };
+		698B037A264F02C200FEDB3B /* FlexCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexCellView.swift; sourceTree = "<group>"; };
+		698B037B264F02C200FEDB3B /* FlexBaseCollectionViewCellTextLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexBaseCollectionViewCellTextLabel.swift; sourceTree = "<group>"; };
+		698B039226501A3100FEDB3B /* FlexCellStyler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexCellStyler.swift; sourceTree = "<group>"; };
+		698B03A026512E5100FEDB3B /* FlexControlLayoutHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexControlLayoutHelper.swift; sourceTree = "<group>"; };
+		89B23C6F28D79551F8B499D2 /* Pods_FlexCollections_FlexCollectionsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlexCollections_FlexCollectionsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91F4F4C7B3C485B75D1F3814 /* Pods-FlexCollections.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexCollections.release.xcconfig"; path = "Target Support Files/Pods-FlexCollections/Pods-FlexCollections.release.xcconfig"; sourceTree = "<group>"; };
+		CFCB7E8AE364947B7D8F6422 /* Pods-FlexCollections-FlexCollectionsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexCollections-FlexCollectionsTests.debug.xcconfig"; path = "Target Support Files/Pods-FlexCollections-FlexCollectionsTests/Pods-FlexCollections-FlexCollectionsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F12568BA1906E960A89648DC /* Pods-FlexCollections-FlexCollectionsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexCollections-FlexCollectionsTests.release.xcconfig"; path = "Target Support Files/Pods-FlexCollections-FlexCollectionsTests/Pods-FlexCollections-FlexCollectionsTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +161,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B83CF4FEB979856DC75ECABD /* Pods_FlexCollections.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				698B0303264BEA6500FEDB3B /* FlexCollections.framework in Frameworks */,
+				02AC20D709FA30297BC8316D /* Pods_FlexCollections_FlexCollectionsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +183,8 @@
 				698B02FB264BEA6500FEDB3B /* FlexCollections */,
 				698B0306264BEA6500FEDB3B /* FlexCollectionsTests */,
 				698B02FA264BEA6500FEDB3B /* Products */,
+				7595CA674BBBB747E3FAC074 /* Pods */,
+				F291BEF5760A91848B6AFC6B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +200,13 @@
 		698B02FB264BEA6500FEDB3B /* FlexCollections */ = {
 			isa = PBXGroup;
 			children = (
+				698B039F26512E4500FEDB3B /* Helper */,
+				698B039126501A2200FEDB3B /* Styling */,
+				698B0376264F02AD00FEDB3B /* Inner Components */,
+				698B036F264F01F200FEDB3B /* Headers */,
+				698B0344264F01AE00FEDB3B /* Cells */,
+				698B0316264F013D00FEDB3B /* Items */,
+				698B0313264F010200FEDB3B /* FlexCollectionView.swift */,
 				698B02FC264BEA6500FEDB3B /* FlexCollections.h */,
 				698B02FD264BEA6500FEDB3B /* Info.plist */,
 			);
@@ -84,6 +220,106 @@
 				698B0309264BEA6500FEDB3B /* Info.plist */,
 			);
 			path = FlexCollectionsTests;
+			sourceTree = "<group>";
+		};
+		698B0316264F013D00FEDB3B /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				698B0323264F016300FEDB3B /* FlexBaseCollectionItem.swift */,
+				698B0318264F016300FEDB3B /* FlexButtonCollectionItem.swift */,
+				698B0325264F016300FEDB3B /* FlexCardTextViewCollectionItem.swift */,
+				698B0317264F016300FEDB3B /* FlexCardViewCollectionItem.swift */,
+				698B031C264F016300FEDB3B /* FlexCollectionItem.swift */,
+				698B0320264F016300FEDB3B /* FlexCollectionSection.swift */,
+				698B031D264F016300FEDB3B /* FlexColorCollectionItem.swift */,
+				698B0319264F016300FEDB3B /* FlexFlickButtonCollectionItem.swift */,
+				698B0322264F016300FEDB3B /* FlexImageCollectionItem.swift */,
+				698B031B264F016300FEDB3B /* FlexMenuCollectionItem.swift */,
+				698B031F264F016300FEDB3B /* FlexSliderCollectionItem.swift */,
+				698B0321264F016300FEDB3B /* FlexSnapStepperCollectionItem.swift */,
+				698B031A264F016300FEDB3B /* FlexSwitchCollectionItem.swift */,
+				698B031E264F016300FEDB3B /* FlexTextFieldCollectionItem.swift */,
+				698B0324264F016300FEDB3B /* FlexTextViewCollectionItem.swift */,
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
+		698B0344264F01AE00FEDB3B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				698B034A264F01BF00FEDB3B /* FlexBaseCollectionViewCell.swift */,
+				698B034D264F01BF00FEDB3B /* FlexButtonCollectionViewCell.swift */,
+				698B034C264F01BF00FEDB3B /* FlexCardTextViewCollectionViewCell.swift */,
+				698B0349264F01BF00FEDB3B /* FlexCardViewCollectionViewCell.swift */,
+				698B0352264F01BF00FEDB3B /* FlexCollectionViewCell.swift */,
+				698B0351264F01BF00FEDB3B /* FlexColorCollectionViewCell.swift */,
+				698B0345264F01BF00FEDB3B /* FlexFlickButtonCollectionViewCell.swift */,
+				698B034F264F01BF00FEDB3B /* FlexImageCollectionViewCell.swift */,
+				698B0350264F01BF00FEDB3B /* FlexMenuCollectionViewCell.swift */,
+				698B0346264F01BF00FEDB3B /* FlexSliderCollectionViewCell.swift */,
+				698B0347264F01BF00FEDB3B /* FlexSnapStepperCollectionViewCell.swift */,
+				698B034B264F01BF00FEDB3B /* FlexSwitchCollectionViewCell.swift */,
+				698B034E264F01BF00FEDB3B /* FlexTextFieldCollectionViewCell.swift */,
+				698B0348264F01BF00FEDB3B /* FlexTextViewCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		698B036F264F01F200FEDB3B /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				698B0370264F020900FEDB3B /* EmptyHeaderCollectionReusableView.swift */,
+				698B0371264F020900FEDB3B /* SimpleHeaderCollectionReusableView.swift */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		698B0376264F02AD00FEDB3B /* Inner Components */ = {
+			isa = PBXGroup;
+			children = (
+				698B0377264F02C100FEDB3B /* FlexBaseCollectionViewCellAuxTextLabel.swift */,
+				698B0379264F02C200FEDB3B /* FlexBaseCollectionViewCellDetailTextLabel.swift */,
+				698B0378264F02C200FEDB3B /* FlexBaseCollectionViewCellInfoTextLabel.swift */,
+				698B037B264F02C200FEDB3B /* FlexBaseCollectionViewCellTextLabel.swift */,
+				698B037A264F02C200FEDB3B /* FlexCellView.swift */,
+			);
+			path = "Inner Components";
+			sourceTree = "<group>";
+		};
+		698B039126501A2200FEDB3B /* Styling */ = {
+			isa = PBXGroup;
+			children = (
+				698B039226501A3100FEDB3B /* FlexCellStyler.swift */,
+			);
+			path = Styling;
+			sourceTree = "<group>";
+		};
+		698B039F26512E4500FEDB3B /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				698B03A026512E5100FEDB3B /* FlexControlLayoutHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		7595CA674BBBB747E3FAC074 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				21381B11654D477F7B170834 /* Pods-FlexCollections.debug.xcconfig */,
+				91F4F4C7B3C485B75D1F3814 /* Pods-FlexCollections.release.xcconfig */,
+				CFCB7E8AE364947B7D8F6422 /* Pods-FlexCollections-FlexCollectionsTests.debug.xcconfig */,
+				F12568BA1906E960A89648DC /* Pods-FlexCollections-FlexCollectionsTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F291BEF5760A91848B6AFC6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0996A1D7F8999ADAC509F052 /* Pods_FlexCollections.framework */,
+				89B23C6F28D79551F8B499D2 /* Pods_FlexCollections_FlexCollectionsTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,6 +340,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 698B030D264BEA6500FEDB3B /* Build configuration list for PBXNativeTarget "FlexCollections" */;
 			buildPhases = (
+				3DF1B1FE2FD5130A0548756A /* [CP] Check Pods Manifest.lock */,
 				698B02F4264BEA6500FEDB3B /* Headers */,
 				698B02F5264BEA6500FEDB3B /* Sources */,
 				698B02F6264BEA6500FEDB3B /* Frameworks */,
@@ -122,9 +359,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 698B0310264BEA6500FEDB3B /* Build configuration list for PBXNativeTarget "FlexCollectionsTests" */;
 			buildPhases = (
+				97B865C1ACD660EA054A25F2 /* [CP] Check Pods Manifest.lock */,
 				698B02FE264BEA6500FEDB3B /* Sources */,
 				698B02FF264BEA6500FEDB3B /* Frameworks */,
 				698B0300264BEA6500FEDB3B /* Resources */,
+				17D7199ED3B5B4A95321A31A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -147,6 +386,7 @@
 				TargetAttributes = {
 					698B02F8264BEA6500FEDB3B = {
 						CreatedOnToolsVersion = 12.5;
+						LastSwiftMigration = 1250;
 					};
 					698B0301264BEA6500FEDB3B = {
 						CreatedOnToolsVersion = 12.5;
@@ -189,11 +429,114 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		17D7199ED3B5B4A95321A31A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlexCollections-FlexCollectionsTests/Pods-FlexCollections-FlexCollectionsTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FlexCollections-FlexCollectionsTests/Pods-FlexCollections-FlexCollectionsTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FlexCollections-FlexCollectionsTests/Pods-FlexCollections-FlexCollectionsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DF1B1FE2FD5130A0548756A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlexCollections-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97B865C1ACD660EA054A25F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlexCollections-FlexCollectionsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		698B02F5264BEA6500FEDB3B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				698B037E264F02C200FEDB3B /* FlexBaseCollectionViewCellInfoTextLabel.swift in Sources */,
+				698B0330264F016300FEDB3B /* FlexCollectionItem.swift in Sources */,
+				698B0332264F016300FEDB3B /* FlexColorCollectionItem.swift in Sources */,
+				698B0336264F016300FEDB3B /* FlexSliderCollectionItem.swift in Sources */,
+				698B0342264F016300FEDB3B /* FlexCardTextViewCollectionItem.swift in Sources */,
+				698B037C264F02C200FEDB3B /* FlexBaseCollectionViewCellAuxTextLabel.swift in Sources */,
+				698B0380264F02C200FEDB3B /* FlexBaseCollectionViewCellDetailTextLabel.swift in Sources */,
+				698B03A126512E5100FEDB3B /* FlexControlLayoutHelper.swift in Sources */,
+				698B036B264F01BF00FEDB3B /* FlexColorCollectionViewCell.swift in Sources */,
+				698B0328264F016300FEDB3B /* FlexButtonCollectionItem.swift in Sources */,
+				698B0334264F016300FEDB3B /* FlexTextFieldCollectionItem.swift in Sources */,
+				698B0355264F01BF00FEDB3B /* FlexSliderCollectionViewCell.swift in Sources */,
+				698B033A264F016300FEDB3B /* FlexSnapStepperCollectionItem.swift in Sources */,
+				698B0367264F01BF00FEDB3B /* FlexImageCollectionViewCell.swift in Sources */,
+				698B0357264F01BF00FEDB3B /* FlexSnapStepperCollectionViewCell.swift in Sources */,
+				698B0372264F020900FEDB3B /* EmptyHeaderCollectionReusableView.swift in Sources */,
+				698B0353264F01BF00FEDB3B /* FlexFlickButtonCollectionViewCell.swift in Sources */,
+				698B032A264F016300FEDB3B /* FlexFlickButtonCollectionItem.swift in Sources */,
+				698B036D264F01BF00FEDB3B /* FlexCollectionViewCell.swift in Sources */,
+				698B0361264F01BF00FEDB3B /* FlexCardTextViewCollectionViewCell.swift in Sources */,
+				698B0374264F020900FEDB3B /* SimpleHeaderCollectionReusableView.swift in Sources */,
+				698B0363264F01BF00FEDB3B /* FlexButtonCollectionViewCell.swift in Sources */,
+				698B0365264F01BF00FEDB3B /* FlexTextFieldCollectionViewCell.swift in Sources */,
+				698B032E264F016300FEDB3B /* FlexMenuCollectionItem.swift in Sources */,
+				698B0382264F02C200FEDB3B /* FlexCellView.swift in Sources */,
+				698B0369264F01BF00FEDB3B /* FlexMenuCollectionViewCell.swift in Sources */,
+				698B035F264F01BF00FEDB3B /* FlexSwitchCollectionViewCell.swift in Sources */,
+				698B0384264F02C200FEDB3B /* FlexBaseCollectionViewCellTextLabel.swift in Sources */,
+				698B032C264F016300FEDB3B /* FlexSwitchCollectionItem.swift in Sources */,
+				698B0359264F01BF00FEDB3B /* FlexTextViewCollectionViewCell.swift in Sources */,
+				698B039326501A3100FEDB3B /* FlexCellStyler.swift in Sources */,
+				698B035B264F01BF00FEDB3B /* FlexCardViewCollectionViewCell.swift in Sources */,
+				698B0326264F016300FEDB3B /* FlexCardViewCollectionItem.swift in Sources */,
+				698B035D264F01BF00FEDB3B /* FlexBaseCollectionViewCell.swift in Sources */,
+				698B033E264F016300FEDB3B /* FlexBaseCollectionItem.swift in Sources */,
+				698B033C264F016300FEDB3B /* FlexImageCollectionItem.swift in Sources */,
+				698B0314264F010300FEDB3B /* FlexCollectionView.swift in Sources */,
+				698B0338264F016300FEDB3B /* FlexCollectionSection.swift in Sources */,
+				698B0340264F016300FEDB3B /* FlexTextViewCollectionItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,7 +544,46 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				698B0327264F016300FEDB3B /* FlexCardViewCollectionItem.swift in Sources */,
+				698B035A264F01BF00FEDB3B /* FlexTextViewCollectionViewCell.swift in Sources */,
+				698B035C264F01BF00FEDB3B /* FlexCardViewCollectionViewCell.swift in Sources */,
+				698B037D264F02C200FEDB3B /* FlexBaseCollectionViewCellAuxTextLabel.swift in Sources */,
+				698B0358264F01BF00FEDB3B /* FlexSnapStepperCollectionViewCell.swift in Sources */,
+				698B0335264F016300FEDB3B /* FlexTextFieldCollectionItem.swift in Sources */,
+				698B036C264F01BF00FEDB3B /* FlexColorCollectionViewCell.swift in Sources */,
+				698B039426501A3100FEDB3B /* FlexCellStyler.swift in Sources */,
 				698B0308264BEA6500FEDB3B /* FlexCollectionsTests.swift in Sources */,
+				698B033D264F016300FEDB3B /* FlexImageCollectionItem.swift in Sources */,
+				698B036A264F01BF00FEDB3B /* FlexMenuCollectionViewCell.swift in Sources */,
+				698B0333264F016300FEDB3B /* FlexColorCollectionItem.swift in Sources */,
+				698B037F264F02C200FEDB3B /* FlexBaseCollectionViewCellInfoTextLabel.swift in Sources */,
+				698B0356264F01BF00FEDB3B /* FlexSliderCollectionViewCell.swift in Sources */,
+				698B0354264F01BF00FEDB3B /* FlexFlickButtonCollectionViewCell.swift in Sources */,
+				698B0383264F02C200FEDB3B /* FlexCellView.swift in Sources */,
+				698B033F264F016300FEDB3B /* FlexBaseCollectionItem.swift in Sources */,
+				698B0385264F02C200FEDB3B /* FlexBaseCollectionViewCellTextLabel.swift in Sources */,
+				698B0337264F016300FEDB3B /* FlexSliderCollectionItem.swift in Sources */,
+				698B032B264F016300FEDB3B /* FlexFlickButtonCollectionItem.swift in Sources */,
+				698B0364264F01BF00FEDB3B /* FlexButtonCollectionViewCell.swift in Sources */,
+				698B0339264F016300FEDB3B /* FlexCollectionSection.swift in Sources */,
+				698B036E264F01BF00FEDB3B /* FlexCollectionViewCell.swift in Sources */,
+				698B0368264F01BF00FEDB3B /* FlexImageCollectionViewCell.swift in Sources */,
+				698B032F264F016300FEDB3B /* FlexMenuCollectionItem.swift in Sources */,
+				698B0373264F020900FEDB3B /* EmptyHeaderCollectionReusableView.swift in Sources */,
+				698B035E264F01BF00FEDB3B /* FlexBaseCollectionViewCell.swift in Sources */,
+				698B0341264F016300FEDB3B /* FlexTextViewCollectionItem.swift in Sources */,
+				698B0360264F01BF00FEDB3B /* FlexSwitchCollectionViewCell.swift in Sources */,
+				698B032D264F016300FEDB3B /* FlexSwitchCollectionItem.swift in Sources */,
+				698B03A226512E5100FEDB3B /* FlexControlLayoutHelper.swift in Sources */,
+				698B0331264F016300FEDB3B /* FlexCollectionItem.swift in Sources */,
+				698B0315264F010300FEDB3B /* FlexCollectionView.swift in Sources */,
+				698B0329264F016300FEDB3B /* FlexButtonCollectionItem.swift in Sources */,
+				698B033B264F016300FEDB3B /* FlexSnapStepperCollectionItem.swift in Sources */,
+				698B0381264F02C200FEDB3B /* FlexBaseCollectionViewCellDetailTextLabel.swift in Sources */,
+				698B0362264F01BF00FEDB3B /* FlexCardTextViewCollectionViewCell.swift in Sources */,
+				698B0366264F01BF00FEDB3B /* FlexTextFieldCollectionViewCell.swift in Sources */,
+				698B0343264F016300FEDB3B /* FlexCardTextViewCollectionItem.swift in Sources */,
+				698B0375264F020900FEDB3B /* SimpleHeaderCollectionReusableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +650,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -326,7 +708,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -340,7 +722,9 @@
 		};
 		698B030E264BEA6500FEDB3B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21381B11654D477F7B170834 /* Pods-FlexCollections.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = V7Y9TF9C7U;
@@ -349,6 +733,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = FlexCollections/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -357,6 +742,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.rehsco.FlexCollections;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -364,7 +751,9 @@
 		};
 		698B030F264BEA6500FEDB3B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91F4F4C7B3C485B75D1F3814 /* Pods-FlexCollections.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = V7Y9TF9C7U;
@@ -373,6 +762,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = FlexCollections/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -381,6 +771,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.rehsco.FlexCollections;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -388,7 +779,9 @@
 		};
 		698B0311264BEA6500FEDB3B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFCB7E8AE364947B7D8F6422 /* Pods-FlexCollections-FlexCollectionsTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V7Y9TF9C7U;
 				INFOPLIST_FILE = FlexCollectionsTests/Info.plist;
@@ -406,7 +799,9 @@
 		};
 		698B0312264BEA6500FEDB3B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F12568BA1906E960A89648DC /* Pods-FlexCollections-FlexCollectionsTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V7Y9TF9C7U;
 				INFOPLIST_FILE = FlexCollectionsTests/Info.plist;

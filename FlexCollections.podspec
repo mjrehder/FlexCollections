@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'FlexCollections'
-  s.version          = '1.0'
+  s.version          = '1.0.1'
   s.license          = 'MIT'
   s.summary          = 'Flexible collection view components and cells with style'
   s.homepage         = 'https://github.com/mjrehder/FlexCollections.git'

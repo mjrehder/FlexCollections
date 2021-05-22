@@ -1,6 +1,6 @@
 //
 //  FlexTextViewCollectionViewCell.swift
-//  MJRFlexStyleComponents
+//  FlexCollections
 //
 //  Created by Martin Rehder on 23.09.16.
 /*

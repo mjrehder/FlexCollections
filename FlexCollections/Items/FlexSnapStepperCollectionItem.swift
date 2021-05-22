@@ -1,6 +1,6 @@
 //
 //  FlexSnapStepperCollectionItem.swift
-//  MJRFlexStyleComponents
+//  FlexCollections
 //
 //  Created by Martin Rehder on 30.06.2017.
 /*

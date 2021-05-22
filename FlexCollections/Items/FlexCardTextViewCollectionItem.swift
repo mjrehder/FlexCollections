@@ -1,6 +1,6 @@
 //
 //  FlexCardTextViewCollectionItem.swift
-//  MJRFlexStyleComponents
+//  FlexCollections
 //
 //  Created by Martin Rehder on 12.02.2017.
 /*

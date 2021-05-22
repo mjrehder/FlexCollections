@@ -1,6 +1,6 @@
 //
 //  FlexSliderCollectionItem.swift
-//  MJRFlexStyleComponents
+//  FlexCollections
 //
 //  Created by Martin Rehder on 08.10.2016.
 /*

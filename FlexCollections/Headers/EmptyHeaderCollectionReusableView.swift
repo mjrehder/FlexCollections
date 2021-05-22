@@ -1,6 +1,6 @@
 //
 //  EmptyHeaderCollectionReusableView.swift
-//  MJRFlexStyleComponents
+//  FlexCollections
 //
 //  Created by Martin Rehder on 24.09.16.
 /*

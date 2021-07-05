@@ -506,6 +506,19 @@ open class FlexCollectionView: FlexView, UICollectionViewDataSource, UICollectio
     
     open func onFlexCollectionViewCellTouched(_ item: FlexCollectionItem?, xRelPos: CGFloat, yRelPos: CGFloat) {
         if let item = item {
+            // Do not change selection when image view inside cell is touched and image view action handler is defined
+            if let baseItem = item as? FlexBaseCollectionItem {
+                if baseItem.imageViewActionHandler != nil {
+                    if let ip = getIndexPathForItem(item.reference) {
+                        if let cell = itemCollectionView.cellForItem(at: ip) as? FlexBaseCollectionViewCell, let imageView = cell.imageView {
+                            if imageView.bounds.contains(CGPoint(x: xRelPos, y: yRelPos)) {
+                                return
+                            }
+                        }
+                    }
+                }
+            }
+            
             if let ip = self.getIndexPathForItem(item.reference) {
                 if let selIP = self.itemCollectionView.indexPathsForSelectedItems, selIP.contains(ip) {
                     self.itemCollectionView.deselectItem(at: ip, animated: true)

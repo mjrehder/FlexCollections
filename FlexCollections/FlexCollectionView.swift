@@ -511,7 +511,10 @@ open class FlexCollectionView: FlexView, UICollectionViewDataSource, UICollectio
                 if baseItem.imageViewActionHandler != nil {
                     if let ip = getIndexPathForItem(item.reference) {
                         if let cell = itemCollectionView.cellForItem(at: ip) as? FlexBaseCollectionViewCell, let imageView = cell.imageView {
-                            if imageView.bounds.contains(CGPoint(x: xRelPos, y: yRelPos)) {
+                            let itemViewBounds = imageView.frame
+                            let touchX = cell.frame.size.width * xRelPos
+                            let touchY = cell.frame.size.height * yRelPos
+                            if itemViewBounds.contains(CGPoint(x: touchX, y: touchY)) {
                                 return
                             }
                         }

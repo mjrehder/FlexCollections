@@ -261,9 +261,14 @@ open class FlexCollectionView: FlexView, UICollectionViewDataSource, UICollectio
     }
     
     open func selectItem(_ itemReference: String) {
-        self.itemCollectionView.selectItem(at: self.getIndexPathForItem(itemReference), animated: true, scrollPosition: UICollectionView.ScrollPosition())
+        if let itemPosition = self.getIndexPathForItem(itemReference) {
+            itemCollectionView.selectItem(at: itemPosition, animated: true, scrollPosition: UICollectionView.ScrollPosition())
+            itemCollectionView.isPagingEnabled = false
+            itemCollectionView.scrollToItem(at: itemPosition, at: .centeredHorizontally, animated: true)
+            itemCollectionView.isPagingEnabled = true
+        }
     }
-    
+
     open func deselectItem(_ itemReference: String) {
         if let ip = self.getIndexPathForItem(itemReference) {
             self.itemCollectionView.deselectItem(at: ip, animated: true)

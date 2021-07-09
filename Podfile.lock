@@ -1,0 +1,44 @@
+PODS:
+  - ColorExtensions (1.0.1)
+  - FlexControls (1.0.6):
+    - StyledLabel
+  - FlexMenu (1.0.4):
+    - FlexSlider
+  - FlexSlider (1.0.6):
+    - ColorExtensions
+    - FlexControls
+    - StringSizeCalculationExtension
+  - FlexViews (1.2):
+    - FlexMenu
+    - ImageExtensions
+  - ImageExtensions (1.0.1)
+  - StringSizeCalculationExtension (1.0.1)
+  - StyledLabel (5.0.3)
+
+DEPENDENCIES:
+  - FlexViews
+
+SPEC REPOS:
+  trunk:
+    - ColorExtensions
+    - FlexControls
+    - FlexMenu
+    - FlexSlider
+    - FlexViews
+    - ImageExtensions
+    - StringSizeCalculationExtension
+    - StyledLabel
+
+SPEC CHECKSUMS:
+  ColorExtensions: ddbeae38fe47eee1b51231fdee9e1bf28c6f466e
+  FlexControls: 7e68ae631e118861ca5de3f3d04d431beca4535a
+  FlexMenu: e594d763dd51c64bc9e85eb8f2c15c1f5417f2f9
+  FlexSlider: d581256943be719936df90adc8fc00e5260bf7c7
+  FlexViews: 52f01ec19abc84d9c83f26c96fc91d6b500ae0d0
+  ImageExtensions: 9ba0e54c66d19ca9ab79e5a957a2e5a333a30708
+  StringSizeCalculationExtension: 285e0148581726ac24b8d4ae4f8a0f99a51ac42a
+  StyledLabel: bca5b39c7c29f5e043fe429ce2b65e0216541457
+
+PODFILE CHECKSUM: 84b7ee9d8891b599875cdd725f692901fba39e14
+
+COCOAPODS: 1.10.1
